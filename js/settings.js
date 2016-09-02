@@ -170,23 +170,6 @@ LOVETRAVEL.responsivenavigation = function(){
 }
 //end responsive navigation
 
-//start tweets
-LOVETRAVEL.latesttweets = function(){
-
-	jQuery(document).ready(function() {
-    
-		$(function() {
-
-			$('#tweets').twitterFeed({
-				url: 'http://www.your-site.xx/js/twitter/twitterfeed.php' //insert here your twitterfeed.php url, see the documentation
-			});
-
-		});
-	  
-    });
-	
-}
-//end tweets
 
 //init
 LOVETRAVEL.scrolltop();
@@ -195,7 +178,6 @@ LOVETRAVEL.rightsearch();
 LOVETRAVEL.homeinview();
 LOVETRAVEL.menusuperfish();
 LOVETRAVEL.responsivenavigation();
-LOVETRAVEL.latesttweets();
 //end init
 
 });
