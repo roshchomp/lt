@@ -75,28 +75,28 @@
 
                     <li class="current yellow">
                         <span class="menufilter"></span>
-                        <a href="index.html"><strong>HOME</strong></a>
+                        <a href="/"><strong>HOME</strong></a>
 
                     </li>
 
                     <li class="orange">
                         <span class="menufilter"></span>
-                        <a href="tours.html"><strong>TOURS</strong></a>
+                        <a href="tours"><strong>TOURS</strong></a>
                     </li>
 
                     <li class="red">
                         <span class="menufilter"></span>
-                        <a href="services.html"><strong>SERVICES</strong></a>
+                        <a href="services"><strong>SERVICES</strong></a>
                     </li>
 
                     <li class="violet">
                         <span class="menufilter"></span>
-                        <a href="about-us.html"><strong>ABOUT US</strong></a>
+                        <a href="about-us"><strong>ABOUT US</strong></a>
                     </li>
 
                     <li class="red">
                         <span class="menufilter"></span>
-                        <a href="gallery.html"><strong>GALLERY</strong></a>
+                        <a href="gallery"><strong>GALLERY</strong></a>
                     </li>
 
                 </ul>
