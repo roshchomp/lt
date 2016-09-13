@@ -512,8 +512,9 @@
 		  $('.flex-carousel').flexslider({
 			animation: "slide",
 			controlNav: false,
-			animationLoop: false,
-			slideshow: false,
+      animationLoop: true,
+      slideshow: true,
+      slideshowSpeed: 3000,
 			itemWidth: 100,
 			itemMargin: 5,
 			asNavFor: '.flex-slider'
@@ -522,8 +523,9 @@
 		  $('.flex-slider').flexslider({
 			animation: "slide",
 			controlNav: false,
-			animationLoop: false,
-			slideshow: false,
+      animationLoop: true,
+			slideshow: true,      
+      slideshowSpeed: 3000,
 			sync: ".flex-carousel",
 			start: function(slider){
 			  $('body').removeClass('loading');
