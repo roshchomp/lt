@@ -1250,7 +1250,11 @@ canvas{
 	background: url(../img/header-page/prices.jpg) 50% 0 fixed;	
 }
 .header-page-tours{
-	background: url(../img/header-page/tours.jpg) 50% 0 fixed;		
+	background: url(../img/header-page/tours.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;			
 }
 .header-page-destinations{
 	background: url(../img/header-page/destinations.jpg) 50% 0 fixed;		
