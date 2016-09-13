@@ -1222,8 +1222,11 @@ canvas{
 	float:left;
 	width:100%;
 	margin-bottom:10px;
-	
-	background: url(../img/header-page/dafault.jpg) 50% 0 fixed;	
+	background: url(../img/header-page/default.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;	
 }
 .header-page div{
 	color:#FFF;
