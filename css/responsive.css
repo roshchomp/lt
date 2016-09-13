@@ -197,8 +197,8 @@
 
 	
 	/*start destination*/
-	.arrowscarousel{
-		display:none;	
+	.arrowscarousel .grid_6 {
+			width: 210px;
 	}
 	/*end destination*/
 	
@@ -294,8 +294,8 @@
 	
 	
 	/*start destination*/
-	.arrowscarousel{
-		display:none;	
+	.arrowscarousel .grid_6 {
+			width: 130px;
 	}
 	/*end destination*/
 	

@@ -99,7 +99,7 @@
 </header><!--end header-->
 
 <section class="header-page fade-up header-page-about-us">
-	<div class="bounce-in animate4"><h2 class="header-pagetitle">ABOUT US<br/><span class="header-pagedescription">First Solution</span></h2></div>
+	<div class="bounce-in animate4"><h2 class="header-pagetitle">ABOUT US<br/><span class="header-pagedescription">Lakshmi Travels</span></h2></div>
 </section>
 
 <div class="divider"><span></span></div>
@@ -115,17 +115,21 @@
         <div class="grid_12">
             <div class="titlesection rotate-In-Down-Left">
                 <h1>OUR AGENCY</h1>
-                <h4>LOREM IPSUM DOLOR SIT AMET CONSECTEUR ADIP</h4>
+                <h4>WE ARE BEST AT WHAT WE DO.</h4>
             </div>  
         </div>
         
         
         <div class="grid_6 blue fade-left animate1">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin cursus, elit vitae fermentum hendrerit, neque erat fringilla nibh, vel sodales sem diam nec nunc. Donec mattis blandit metus ut volutpat. Quisque orci lectus, sodales at cursus et, gravida quis nisl. Donec mattis blandit metus ut volutpat. Quisque orci lectus, sodales at cursus et, gravida quis nisl</p><br/>
-            
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin cursus, elit vitae fermentum hendrerit, neque erat fringilla nibh, vel sodales sem diam nec nunc. Donec mattis blandit metus ut volutpat. Quisque orci lectus, sodales at cursus et, gravida quis nisl. Donec mattis blandit metus ut volutpat. Quisque orci lectus, sodales at cursus et, gravida quis nisl</p><br/>
-            
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin cursus, elit vitae fermentum hendrerit, neque erat fringilla nibh, vel sodales sem diam nec nunc. Donec mattis blandit metus ut volutpat. Quisque orci lectus, sodales at cursus et, gravida quis nisl. Donec mattis blandit metus ut volutpat. Quisque orci lectus, sodales at cursus et, gravida quis nisl</p>
+            <p>
+              Lakshmi Travels is one of the reputed tour operators in India. We are recognized by Karnataka State Tourism Development Corporation (KSTDC) under License Number DTR\PA\92\2006-2007. Established on 24th May 1997, we are located in Shimoga, the heart of Karnataka and the Gate way of the Malnad region. We have a wide network among all important cities across Karnataka and India.
+            </p><br/>  
+            <p>
+              We have the most experienced staff in the field of Tours and Travels who have handled tours since last 20 years across India (including Andaman and Nicobar) and Nepal. Our tours are tailor-made, to suite the requirements of each client in the terms of the itinerary, the budget and interests. 
+            </p><br/>  
+            <p>
+              Our strengths are: “Vast experience in handling tours, wide network of hotels with excellent rates and wide exposure in handling off icial delegations(Govt. /Non Govt.)”. Lakshmi Travels is dedicated to maintaining the highest ethical standards in the travel industry.
+            </p><br/>
         </div>
         
         
@@ -342,11 +346,11 @@
     <div class="infocontact infocontactdark blue">
     
       <div class="contentinfocontact">
-          <p class="titleinfocontact">LOVE TRAVEL</p>
+          <p class="titleinfocontact">LAKSHMI TRAVELS</p>
             <ul>
-              <li><p><img alt="" src="img/contact/iconinfocontactaddress.png">102 Madison Ave - New York ( NY )</p></li>
-                <li><p><img alt="" src="img/contact/iconinfocontactphone.png">Telephone: (0039) 34916656398</p></li>
-                <li><p><img alt="" src="img/contact/iconinfocontactmail.png">Mail: yourname@yourdomain.xx</p></li>
+              <li><p><img alt="" src="img/contact/iconinfocontactaddress.png"># 2 Shankar Complex, 4th Cross, Durgigudi, Shimoga</p></li>
+                <li><p><img alt="" src="img/contact/iconinfocontactphone.png">Phone : 08182 276839, Mob : 94481026839, 9611126839</p></li>
+                <li><p><img alt="" src="img/contact/iconinfocontactmail.png">Mail: rudresh.ru@gmail.com, lakshmitravelssmg@gmail.com</p></li>
             </ul>
         </div>
         
@@ -437,7 +441,7 @@
 	<!--Start js-->    
     <script src="js/jquery.min.js"></script> <!--Jquery-->
     <script src="js/jquery-ui.js"></script> <!--Jquery UI-->
-    <script src="https://maps.googleapis.com/maps/api/js?sensor=true"></script> <!-- Google Map API -->
+    <script src="https://maps.googleapis.com/maps/api/js"></script> <!-- Google Map API -->
     <script src="js/excanvas.js"></script> <!--canvas need for ie-->
     <script src="js/scroolto.js"></script> <!--Scrool To-->
     <script src="js/jquery.nicescroll.min.js"></script> <!--Nice Scroll-->
@@ -478,7 +482,7 @@
 		$(document).ready(function(){
 		
 			var map;
-			var brooklyn = new google.maps.LatLng(40.759277, -73.977064);
+			var location = new google.maps.LatLng(13.9378863,75.5741538);
 			
 			var MY_MAPTYPE_ID = 'custom_style';
 			
@@ -507,9 +511,9 @@
 			  }
 			  
 			  var mapOptions = {
-				zoom: 14,
+				zoom: 18,
 				draggable: false,
-				center: brooklyn,
+				center: location,
 				disableDefaultUI: true,
 				scrollwheel: false,
 				mapTypeControlOptions: {

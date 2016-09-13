@@ -132,9 +132,9 @@
                 <div class="flexslider flex-slider">
                     <ul class="slides">
                         <li><img title="Haridwara" alt="Aww snap!" src="img/north-india-tour-14/slider/big/img1.jpg" /></li>
-                        <li><img alt="Aww snap!" src="img/north-india-tour-14/slider/big/img2.jpg" /></li>
-                        <li><img title="Rishikesha" alt="Aww snap!" src="img/north-india-tour-14/slider/big/img3.jpg" title="Deharadun"/></li>
-						<li><img title="Jaipura" alt="Aww snap!" src="img/north-india-tour-14/slider/big/img4.jpg" /></li>
+                        <li><img title="Rishikesh" alt="Aww snap!" src="img/north-india-tour-14/slider/big/img2.jpg" /></li>
+                        <li><img title="Deharadun" alt="Aww snap!" src="img/north-india-tour-14/slider/big/img3.jpg" /></li>
+						            <li><img title="Jaipur" alt="Aww snap!" src="img/north-india-tour-14/slider/big/img4.jpg" /></li>
                         <li><img title="Agra" alt="Aww snap!" src="img/north-india-tour-14/slider/big/img5.jpg" /></li>
                         <li><img title="Fathepur Sekri" alt="Aww snap!" src="img/north-india-tour-14/slider/big/img6.jpg" /></li>
                         <li><img title="Mathura" alt="Aww snap!" src="img/north-india-tour-14/slider/big/img7.jpg" /></li>
@@ -512,8 +512,9 @@
 		  $('.flex-carousel').flexslider({
 			animation: "slide",
 			controlNav: false,
-			animationLoop: false,
-			slideshow: false,
+      animationLoop: true,
+      slideshow: true,
+      slideshowSpeed: 3000,
 			itemWidth: 100,
 			itemMargin: 5,
 			asNavFor: '.flex-slider'
@@ -522,8 +523,9 @@
 		  $('.flex-slider').flexslider({
 			animation: "slide",
 			controlNav: false,
-			animationLoop: false,
-			slideshow: false,
+      animationLoop: true,
+			slideshow: true,      
+      slideshowSpeed: 3000,
 			sync: ".flex-carousel",
 			start: function(slider){
 			  $('body').removeClass('loading');
