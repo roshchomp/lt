@@ -1263,10 +1263,18 @@ canvas{
 	background: url(../img/header-page/single-project.jpg) 50% 0 fixed;		
 }
 .header-page-gallery{
-	background: url(../img/header-page/gallery.jpg) 50% 0 fixed;		
+	background: url(../img/header-page/gallery.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;				
 }
 .header-page-about-us{
-	background: url(../img/header-page/about-us.jpg) 50% 0 fixed;		
+	background: url(../img/header-page/about-us.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;				
 }
 .header-page-team{
 	background: url(../img/header-page/team.jpg) 50% 0 fixed;		
